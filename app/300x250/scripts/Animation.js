@@ -22,7 +22,7 @@ app.Animation = (function () {
 		t.set(banner, {opacity:1});
 
         buttonExit.addEventListener('mouseover', function () {
-            TweenMax.to(cta, .25, {backgroundColor: "#000000"});
+            TweenMax.to(cta, .25, {backgroundColor: "#cc0000"});
             TweenMax.to(cta_txt_ovr, .25, {opacity:1});
             TweenMax.to(cta_txt, .25, {opacity:0});
         });
